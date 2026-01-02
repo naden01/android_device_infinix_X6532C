@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_infinix-X6532C",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_infinix-X6532C.cpp"],
+    recovery_available: true,
+}
